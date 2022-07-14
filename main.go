@@ -7,7 +7,7 @@
  
 
 
-
+// Base function provided by leetcode. Can't change this
   func mergeKLists(lists []*ListNode) *ListNode {
     var res []int
     var aux *ListNode
