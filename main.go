@@ -5,7 +5,8 @@
   *    Next *ListNode
   *}**/
  
-
+// The basic approach is to disarm the whole given structure, get advantage of the sorting methods and then rearm this.
+// I'll be putting all the values into a []int, sort them and then create a new *ListNode that will satisfy the answer
 
 // Base function provided by leetcode. Can't change this
   func mergeKLists(lists []*ListNode) *ListNode {
